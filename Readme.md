@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/24/user/966189).
+* Студент: [Артем Гармаш](https://up.htmlacademy.ru/htmlcss/24/user/966189).
 * Наставник [Сергей Кравченко](https://htmlacademy.ru/profile/id13921)
 
 
