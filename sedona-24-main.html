@@ -1,10 +1,11 @@
 <!DOCTYPE html>
  <html lang="ru">
   <head>
-  	<meta charset="utf8">
+  	<meta charset="utf-8">
   	 <title>Sedona</title>
   </head>
   <body>
+   <div class="container">
   	<header class="main-header">
   	 <nav class="main-navigation">
   	  <a class="main-header-logo">
@@ -20,22 +21,32 @@
       </ul>
      </nav>
     </header> 
-    <main class="container">
-     <h1 class="visually-hidden">Добро пожаловать в великолепную Седону!Потому что Гранд Каньон-отстой!
-     </h1>
-     <section class="features">
-      <h2>Седона-небольшой городок в Аризоне, заслуживающий большего!
-      </h2>
+    <main>
+    	<div class="mountains"><img src="img/mountains.jpg" alt="Приветствие">
+    	</div>
+     <div class="features">
+      <h1>Седона-небольшой городок в Аризоне, заслуживающий большего!
+      </h1>
        <p>Расcмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
        </p>
-     </section>
-     <section class="features-1">
-      <h3>-N1-Настоящий городок</h3>
-       <p>Седона-не аттракцион для туристов, там течёт своя жизнь
+     </div>
+     <!--Здесь будет отмеченное красным-->
+
+     <div class="search">
+      <h2>Заинтересовались?</h2>
+       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
        </p>
-     </section> 
+     </div>
+     <div class="search-hotel">
+     	<h3>Поиск гостиницы в Седоне</h3>
+     	 <p>Дата заезда:</p>
+     	 <p>Дата вызда:</p>
+     	 <p>Взрослые:</p>
+     	 <p>Дети:</p>
+     	 <a class="button" href="#">Найти</a>
+     	 <!--Я так понял, здесь будет форма?-->
+     </div>	 
     </main>
-    <!--С мэйном у меня затык произошёл, не знаю, как раскинуть, в секшине пэшками или улом...Утром подумаю на свежую голову.-->
     <footer class="main-footer">
      <p class="footer-tag-visitsedona">#VISITSEDONA</p>
      <div class="footer-social">
@@ -51,7 +62,9 @@
       <a class="button" href="https://htmlacademy.ru">Html Academy</a>
      </p>
     </footer>
-  </body>      
+   </div> 
+  </body>
+ </html>      
 
 
       
