@@ -19,37 +19,51 @@
      </nav>
     </header> 
     <main>
-    	<div class="welcome"><img src="img/mountains.jpg" alt="Mountains">
+    	<div class="welcome"><img src="img/mountains.jpg" alt="Welcome to the georgius Sedona">
     	</div>
-     <div class="intro-title">
-      <h1>Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
-       <p>Расcмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+     <div class="intro">
+      <h1 class="intro-title">Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
+      <p>Расcмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
      </div>
      <!--Здесь будет отмеченное красным-->
-     <div class="search-title">
-      <h2>Заинтересовались?</h2>
-       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-       <button class="search-btn">Поиск гостиницы в Седоне</button>
+     <div class="search">
+      <h2 class="search-title">Заинтересовались?</h2>
+      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <button class="search-btn">Поиск гостиницы в Седоне</button>
      </div>
-     <form action="https://echo.htmlacademy.ru/" method="post">
-     	 <p class="field-wrapper"><label>Дата заезда:</label><input value="24 апреля 2017"><button><span class="visually-hidden">Выбрать дату</span>Календарь иконка</button></p>
-     	 <p class="field-wrapper"><label>Дата выезда:</label><input value="4 июля 2017"><button><span class="visually-hidden">Выбрать дату</span>Календарь иконка</button></p>
-     	 <p class="field-wrapper-half"><label>Взрослые:</label><button><span class="visually-hidden">Меньше</span>-</button><input value="2"><button><span class="visually-hidden">Больше</span>+</button></p>
-     	 <p class="field-wrapper-half"><label>Дети:</label><button><span class="visually-hidden">Меньше</span>-</button><input value="0"><button><span class="visually-hidden">Больше</span>+</button></p>
-     	 <button type="submit">Найти</button>
+     <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+     	<p class="field-wrapper">
+      <label>Дата заезда:</label>
+      <input type="text" value="24 апреля 2017">
+      <button><span class="visually-hidden">Выбрать дату</span>Выбрать дату</button></p>
+     	<p class="field-wrapper">
+      <label>Дата выезда:</label>
+      <input type="text" value="4 июля 2017">
+      <button><span class="visually-hidden">Выбрать дату</span>Выбрать дату</button></p>
+     	<p class="field-wrapper-half">
+      <label>Взрослые:</label>
+      <button class="minus"><span class="visually-hidden">Меньше</span>-</button>
+      <input type="number" value="2" step="1">
+      <button class="plus"><span class="visually-hidden">Больше</span>+</button></p>
+     	<p class="field-wrapper-half">
+      <label>Дети:</label>
+      <button class="minus"><span class="visually-hidden">Меньше</span>-</button>
+      <input type="number" value="0" step="1">
+      <button class="plus"><span class="visually-hidden">Больше</span>+</button></p>
+     	<button type="submit">Найти</button>
      </form>	 
     </main>
     <footer class="main-footer">
      <p class="hashtag">#Visitsedona</p>
-     <div class="footer-list">
-      <ul>
+     <div class="footer-social">
+      <ul class="social-list">
        <li><a class="social-button-twitter" href="#"><span class="visually-hidden">Мы в Твиттере</span>Twitter</a></li>
        <li><a class="social-button-facebook" href="#"><span class="visually-hidden">Мы в Фэйсбуке</span>Facebook</a></li>
        <li><a class="social-button-youtube" href="#"><span class="visually-hidden">Мы в Ютюбе</span>Youtube</a></li>
       </ul>
      </div>
      <p class="footer-copyright">Website by
-      <a class="footer-copyright-link" href="https://htmlacademy.ru">Html Academy</a></p>
+      <a class="footer-copyright-link" href="https://up.htmlacademy.ru/htmlcss/24">Html Academy</a></p>
     </footer>
    </div> 
   </body>
